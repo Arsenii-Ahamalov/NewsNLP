@@ -1,0 +1,29 @@
+# Core data processing
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Web requests and API
+requests>=2.28.0
+
+# Machine learning and NLP
+scikit-learn>=1.2.0
+networkx>=3.0
+nltk>=3.8
+spacy>=3.5.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+wordcloud>=1.9.0
+plotly>=5.15.0
+
+# Web application framework
+streamlit>=1.25.0
+
+# Testing
+pytest>=7.2.0
+pytest-cov>=4.0.0
+
+# Additional utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0

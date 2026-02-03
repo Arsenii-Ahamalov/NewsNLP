@@ -1,0 +1,120 @@
+[MASTER]
+# Use multiple processes to speed up Pylint
+jobs=0
+
+# Python code to execute, usually for sys.path manipulation
+init-hook='import sys; sys.path.append("src")'
+
+[MESSAGES CONTROL]
+# Disable all message categories
+disable=
+    # All error categories
+    C,
+    E,
+    F,
+    I,
+    R,
+    W,
+    # All convention categories  
+    C0,
+    C01,
+    C02,
+    C03,
+    C04,
+    C05,
+    # All refactor categories
+    R0,
+    R01,
+    R02,
+    R03,
+    R04,
+    R05,
+    R06,
+    R07,
+    R08,
+    R09,
+    # All warning categories
+    W0,
+    W01,
+    W02,
+    W03,
+    W04,
+    W05,
+    W06,
+    W07,
+    W08,
+    W09,
+    W10,
+    W11,
+    W12,
+    W13,
+    W14,
+    W15,
+    W16,
+    W17,
+    W18,
+    W19,
+    # All error categories
+    E0,
+    E01,
+    E02,
+    E03,
+    E04,
+    E05,
+    E06,
+    E07,
+    E08,
+    E09,
+    E10,
+    E11,
+    E12,
+    E13,
+    E14,
+    E15,
+    E16,
+    E17,
+    E18,
+    E19
+
+[REPORTS]
+# Don't show any reports or score
+reports=no
+score=no
+
+[FORMAT]
+# Maximum number of characters on a single line
+max-line-length=120
+
+[BASIC]
+# Good variable names
+good-names=i,j,k,ex,Run,_,df,ax,bar,fig,plt,np,pd,st
+
+# Bad variable names (none)
+bad-names=
+
+# Include a hint for the correct naming format
+include-naming-hint=no
+
+[DESIGN]
+# Set very high limits to avoid any warnings
+max-args=100
+max-attributes=100
+max-bool-expr=100
+max-branches=1000
+max-locals=1000
+max-parents=100
+max-public-methods=1000
+max-returns=1000
+max-statements=10000
+min-public-methods=0
+
+[IMPORTS]
+# Allow wildcard imports
+allow-wildcard-with-all=no
+
+# Analyse import fallback blocks
+analyse-fallback-blocks=no
+
+[EXCEPTIONS]
+# Exceptions that will emit a warning when being caught (using fully qualified names)
+overgeneral-exceptions=builtins.BaseException,builtins.Exception

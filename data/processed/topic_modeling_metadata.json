@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-01-12T11:09:40.080429",
+  "phase": "Database Update with Topic Reprocessing",
+  "parameters": {
+    "best_k": 4,
+    "silhouette_score": 0.14401470044021952,
+    "total_articles": 27,
+    "total_features": 1000,
+    "k_values_tested": [
+      2,
+      3,
+      4
+    ],
+    "silhouette_scores": [
+      0.11770101708447242,
+      0.11441583916829226,
+      0.14401470044021952
+    ]
+  },
+  "topics": {
+    "topic_0": {
+      "keywords": [
+        "league",
+        "coach",
+        "like",
+        "novemb",
+        "unit",
+        "clear",
+        "england",
+        "season",
+        "despite",
+        "goal"
+      ],
+      "article_count": 9
+    },
+    "topic_1": {
+      "keywords": [
+        "trump",
+        "confirm",
+        "minist",
+        "into",
+        "which",
+        "donald",
+        "about",
+        "attack",
+        "statement"
+      ],
+      "article_count": 14
+    },
+    "topic_2": {
+      "keywords": [
+        "article",
+        "artist",
+        "publication",
+        "survival",
+        "tech",
+        "section",
+        "peer",
+        "speech",
+        "please"
+      ],
+      "article_count": 2
+    },
+    "topic_3": {
+      "keywords": [
+        "rate",
+        "bank",
+        "inter",
+        "market",
+        "policy",
+        "share",
+        "curry",
+        "sweden",
+        "profit",
+        "cost"
+      ],
+      "article_count": 2
+    }
+  }
+}
